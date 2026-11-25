@@ -1,0 +1,592 @@
+[
+  {
+    "id": "lisa",
+    "title": "Lifetime ISA",
+    "question": "I'm 21 and saving for a house deposit. Should I use a Lifetime ISA?",
+    "recommendation": "Yes. Put all your savings into a Lifetime ISA, including your emergency fund.",
+    "aiCorrect": false,
+    "errorNote": "Claim 3 is wrong. Withdrawing for anything other than a first home (or after 60) costs 25%, not 10%. That's more than the bonus, so emergency money doesn't belong in a LISA.",
+    "parts": [
+      "A Lifetime ISA is a strong option for a first home. ",
+      {
+        "c": 1
+      },
+      " ",
+      {
+        "c": 2
+      },
+      " ",
+      {
+        "c": 3
+      },
+      " Because of that, it makes sense to move all your savings in, including your emergency fund, so everything earns the bonus."
+    ],
+    "claims": [
+      {
+        "id": 1,
+        "text": "You can open one if you're aged 18 to 39, and pay in up to £4,000 each tax year.",
+        "source": "gov-lisa-open",
+        "key": false,
+        "matches": true
+      },
+      {
+        "id": 2,
+        "text": "The government adds a 25% bonus, so you can get up to £1,000 a year on top of what you save.",
+        "source": "gov-lisa-bonus",
+        "key": false,
+        "matches": true
+      },
+      {
+        "id": 3,
+        "text": "If you withdraw for anything other than a first home, you only lose 10%, so the downside is small.",
+        "source": "gov-lisa-withdraw",
+        "key": true,
+        "matches": false
+      }
+    ],
+    "sources": {
+      "gov-lisa-open": {
+        "name": "GOV.UK: Lifetime ISA",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/lifetime-isa",
+        "excerpt": "You must be <mark>18 or over but under 40</mark> to open a Lifetime ISA. You can put in <mark>up to £4,000 each year</mark> until you're 50."
+      },
+      "gov-lisa-bonus": {
+        "name": "GOV.UK: Lifetime ISA",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/lifetime-isa",
+        "excerpt": "The government will add a <mark>25% bonus</mark> to your savings, <mark>up to a maximum of £1,000 per year</mark>."
+      },
+      "gov-lisa-withdraw": {
+        "name": "GOV.UK: Lifetime ISA",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/lifetime-isa",
+        "excerpt": "If you withdraw money for any other reason, you'll pay a <mark>25% withdrawal charge</mark>. This means you could get back less than you paid in."
+      }
+    }
+  },
+  {
+    "id": "student-loan",
+    "title": "Overpaying a student loan",
+    "question": "I've just started my first graduate job. Should I overpay my Plan 5 student loan?",
+    "recommendation": "Not yet. Build an emergency fund before you think about overpaying.",
+    "aiCorrect": true,
+    "errorNote": "The advice is sound and every claim matches its source.",
+    "parts": [
+      "There's no rush to overpay. ",
+      {
+        "c": 1
+      },
+      " ",
+      {
+        "c": 2
+      },
+      " ",
+      {
+        "c": 3
+      },
+      " Since your repayments depend on what you earn rather than what you owe, an emergency fund is the better first step."
+    ],
+    "claims": [
+      {
+        "id": 1,
+        "text": "On a Plan 5 loan you repay 9% of your income above the £25,000 threshold.",
+        "source": "gov-sl-rate",
+        "key": false,
+        "matches": true
+      },
+      {
+        "id": 2,
+        "text": "If you're employed, repayments are taken from your pay automatically, like tax.",
+        "source": "gov-sl-paye",
+        "key": false,
+        "matches": true
+      },
+      {
+        "id": 3,
+        "text": "Anything left is written off 40 years after the April you were first due to repay, so overpaying only helps if you would clear the whole loan.",
+        "source": "gov-sl-writeoff",
+        "key": true,
+        "matches": true
+      }
+    ],
+    "sources": {
+      "gov-sl-rate": {
+        "name": "GOV.UK: Repaying your student loan",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/repaying-your-student-loan",
+        "excerpt": "Plan 5: you pay back <mark>9% of your income over the threshold</mark>. The threshold is <mark>£25,000 a year</mark>."
+      },
+      "gov-sl-paye": {
+        "name": "GOV.UK: Repaying your student loan",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/repaying-your-student-loan",
+        "excerpt": "If you're employed, <mark>your employer will take repayments from your wages</mark> along with Income Tax and National Insurance."
+      },
+      "gov-sl-writeoff": {
+        "name": "GOV.UK: Repaying your student loan",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/repaying-your-student-loan",
+        "excerpt": "Plan 5 loans are <mark>written off 40 years after the April you were first due to repay</mark>."
+      }
+    }
+  },
+  {
+    "id": "bnpl",
+    "title": "Buy Now Pay Later",
+    "question": "Should I use Buy Now Pay Later to get a £900 laptop for uni?",
+    "recommendation": "Only if you're sure you can afford every instalment. Otherwise save up or look for a cheaper laptop.",
+    "aiCorrect": true,
+    "errorNote": "The advice is sound and every claim matches its source.",
+    "parts": [
+      "It can work, but be careful. ",
+      {
+        "c": 1
+      },
+      " ",
+      {
+        "c": 2
+      },
+      " ",
+      {
+        "c": 3
+      },
+      " So check that every instalment fits your budget before you commit."
+    ],
+    "claims": [
+      {
+        "id": 1,
+        "text": "Buy Now Pay Later lets you split the cost into smaller payments, often with no interest if you pay on time.",
+        "source": "mh-bnpl-how",
+        "key": false,
+        "matches": true
+      },
+      {
+        "id": 2,
+        "text": "If you miss a payment, you may be charged a late fee, and it can be reported to credit reference agencies and hurt your credit score.",
+        "source": "mh-bnpl-miss",
+        "key": true,
+        "matches": true
+      },
+      {
+        "id": 3,
+        "text": "It's easy to lose track of what you owe if you use several plans at once.",
+        "source": "mh-bnpl-track",
+        "key": false,
+        "matches": true
+      }
+    ],
+    "sources": {
+      "mh-bnpl-how": {
+        "name": "MoneyHelper: Buy now pay later",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.moneyhelper.org.uk",
+        "excerpt": "Buy now pay later lets you <mark>spread the cost of a purchase over several payments</mark>, usually <mark>interest-free if you pay on time</mark>."
+      },
+      "mh-bnpl-miss": {
+        "name": "MoneyHelper: Buy now pay later",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.moneyhelper.org.uk",
+        "excerpt": "Missing a payment could mean <mark>late fees</mark>, and lenders may <mark>report it to credit reference agencies</mark>, which can <mark>affect your credit score</mark>."
+      },
+      "mh-bnpl-track": {
+        "name": "MoneyHelper: Buy now pay later",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.moneyhelper.org.uk",
+        "excerpt": "Using <mark>several buy now pay later plans</mark> can make it <mark>hard to keep track</mark> of how much you owe and when."
+      }
+    }
+  },
+  {
+    "id": "overdraft",
+    "title": "Student overdraft",
+    "question": "I have £1,500 of interest-free student overdraft left. Should I use it to invest?",
+    "recommendation": "Yes. Use the overdraft to invest. It's free money with no deadline to pay it back.",
+    "aiCorrect": false,
+    "errorNote": "Claim 2 matches its source, but the source is an anonymous forum post and it's wrong. Graduate accounts usually only keep the overdraft interest-free for a limited time, often reducing each year. Investing borrowed money also risks losing it. This is the 'source itself is wrong' limitation from A1.",
+    "parts": [
+      "This could be a smart move. ",
+      {
+        "c": 1
+      },
+      " ",
+      {
+        "c": 2
+      },
+      " That means you can invest the £1,500 and keep any returns while the overdraft costs you nothing."
+    ],
+    "claims": [
+      {
+        "id": 1,
+        "text": "Most student accounts switch to a graduate account automatically when your course ends.",
+        "source": "exp-od",
+        "key": false,
+        "matches": true
+      },
+      {
+        "id": 2,
+        "text": "Student overdrafts stay interest-free even after you graduate, so there's never any rush to pay it back.",
+        "source": "forum-od",
+        "key": true,
+        "matches": true
+      }
+    ],
+    "sources": {
+      "exp-od": {
+        "name": "Experian: Student overdrafts",
+        "type": "Credit agency guide",
+        "reliability": "guide",
+        "checked": "Nov 2026",
+        "url": "https://www.experian.co.uk/consumer/guides/student-overdrafts.html",
+        "excerpt": "When you finish your studies, your student bank account will <mark>usually switch to a graduate account</mark>."
+      },
+      "forum-od": {
+        "name": "Forum post (made up for this prototype)",
+        "type": "Anonymous forum",
+        "reliability": "forum",
+        "checked": "Post undated",
+        "url": "",
+        "excerpt": "\"my student overdraft has been 0% for ages since I graduated, <mark>they never charge you interest</mark>, honestly <mark>don't stress about paying it back</mark>\""
+      }
+    }
+  },
+  {
+    "id": "isa",
+    "title": "ISA allowance",
+    "question": "I saved £6,000 from my summer job. Can I put all of it into ISAs this tax year?",
+    "recommendation": "Yes. All £6,000 fits comfortably within your £20,000 ISA allowance.",
+    "aiCorrect": true,
+    "errorNote": "The advice is sound and every claim matches its source.",
+    "parts": [
+      "Yes, you can. ",
+      {
+        "c": 1
+      },
+      " ",
+      {
+        "c": 2
+      },
+      " ",
+      {
+        "c": 3
+      },
+      " ",
+      {
+        "c": 4
+      }
+    ],
+    "claims": [
+      {
+        "id": 1,
+        "text": "Adults get an ISA allowance of £20,000 each tax year.",
+        "source": "gov-isa-allow",
+        "key": true,
+        "matches": true
+      },
+      {
+        "id": 2,
+        "text": "You can put it all into one ISA or split it across types, like a Cash ISA and a Stocks and Shares ISA.",
+        "source": "gov-isa-split",
+        "key": false,
+        "matches": true
+      },
+      {
+        "id": 3,
+        "text": "Money you pay into a Lifetime ISA counts towards that £20,000.",
+        "source": "gov-isa-lisa",
+        "key": false,
+        "matches": true
+      },
+      {
+        "id": 4,
+        "text": "The allowance resets each tax year, and unused allowance doesn't carry over.",
+        "source": "gov-isa-reset",
+        "key": false,
+        "matches": true
+      }
+    ],
+    "sources": {
+      "gov-isa-allow": {
+        "name": "GOV.UK: Individual Savings Accounts",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/individual-savings-accounts",
+        "excerpt": "You can save <mark>up to £20,000 in one tax year</mark> across your ISAs."
+      },
+      "gov-isa-split": {
+        "name": "GOV.UK: Individual Savings Accounts",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/individual-savings-accounts",
+        "excerpt": "You can <mark>save in one type of account or split the allowance</mark> across some or all of the other types."
+      },
+      "gov-isa-lisa": {
+        "name": "GOV.UK: Individual Savings Accounts",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/individual-savings-accounts",
+        "excerpt": "You can only put <mark>£4,000 into a Lifetime ISA</mark> in a tax year, and it <mark>counts towards your £20,000</mark> allowance."
+      },
+      "gov-isa-reset": {
+        "name": "GOV.UK: Individual Savings Accounts",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/individual-savings-accounts",
+        "excerpt": "Your allowance is for one tax year. <mark>You cannot carry unused allowance over</mark> to the next year."
+      }
+    }
+  },
+  {
+    "id": "credit-score",
+    "title": "Checking your credit score",
+    "question": "I want to build a good credit score before I graduate. How often should I check it?",
+    "recommendation": "Avoid checking your credit score more than once a year, because every check lowers it.",
+    "aiCorrect": false,
+    "errorNote": "Claim 2 is wrong. Checking your own credit report or score is a soft search, so it doesn't affect your score. Checking regularly is actually recommended.",
+    "parts": [
+      "Good thinking to start early. ",
+      {
+        "c": 1
+      },
+      " ",
+      {
+        "c": 2
+      },
+      " So look at it once a year at most, and focus on paying bills on time."
+    ],
+    "claims": [
+      {
+        "id": 1,
+        "text": "Paying bills and credit on time is one of the main ways to build a good credit history.",
+        "source": "exp-cs-build",
+        "key": false,
+        "matches": true
+      },
+      {
+        "id": 2,
+        "text": "Every time you check your own credit score, it leaves a mark on your file that lowers your score.",
+        "source": "exp-cs-check",
+        "key": true,
+        "matches": false
+      }
+    ],
+    "sources": {
+      "exp-cs-build": {
+        "name": "Experian: How to improve your credit score",
+        "type": "Credit agency guide",
+        "reliability": "guide",
+        "checked": "Nov 2026",
+        "url": "https://www.experian.co.uk",
+        "excerpt": "<mark>Paying on time</mark> is one of the most important things you can do to <mark>build a good credit history</mark>."
+      },
+      "exp-cs-check": {
+        "name": "Experian: Does checking my credit score lower it?",
+        "type": "Credit agency guide",
+        "reliability": "guide",
+        "checked": "Nov 2026",
+        "url": "https://www.experian.co.uk",
+        "excerpt": "Checking your own credit report or score is a soft search. It <mark>won't affect your credit score</mark>, so you can <mark>check it as often as you like</mark>."
+      }
+    }
+  },
+  {
+    "id": "tax-refund",
+    "title": "Tax on a part-time job",
+    "question": "I earn about £9,000 a year from my part-time job, but my payslip shows income tax taken off. Can I get it back?",
+    "recommendation": "Yes. You probably shouldn't be paying income tax, so check your tax code and claim the money back.",
+    "aiCorrect": true,
+    "errorNote": "The advice is sound and every claim matches its source.",
+    "parts": [
+      "You may well be owed money. ",
+      {
+        "c": 1
+      },
+      " ",
+      {
+        "c": 2
+      },
+      " ",
+      {
+        "c": 3
+      }
+    ],
+    "claims": [
+      {
+        "id": 1,
+        "text": "Most people can earn £12,570 a year before paying any income tax. This is the Personal Allowance.",
+        "source": "gov-pa",
+        "key": true,
+        "matches": true
+      },
+      {
+        "id": 2,
+        "text": "If you're on the wrong tax code, for example an emergency code when you start a job, you can end up paying too much.",
+        "source": "gov-code",
+        "key": false,
+        "matches": true
+      },
+      {
+        "id": 3,
+        "text": "If you've overpaid, you can claim a refund from HMRC.",
+        "source": "gov-refund",
+        "key": false,
+        "matches": true
+      }
+    ],
+    "sources": {
+      "gov-pa": {
+        "name": "GOV.UK: Income Tax rates and Personal Allowances",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/income-tax-rates",
+        "excerpt": "The standard <mark>Personal Allowance is £12,570</mark>, which is the amount of income you <mark>do not have to pay tax on</mark>."
+      },
+      "gov-code": {
+        "name": "GOV.UK: Tax codes",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/tax-codes",
+        "excerpt": "You may be put on an <mark>emergency tax code</mark> when you start a new job. You could <mark>pay too much tax</mark> until your code is corrected."
+      },
+      "gov-refund": {
+        "name": "GOV.UK: Claim a tax refund",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/claim-tax-refund",
+        "excerpt": "You may be able to <mark>get a refund</mark> if you've <mark>paid too much tax</mark>."
+      }
+    }
+  },
+  {
+    "id": "council-tax",
+    "title": "Council tax in a student house",
+    "question": "I live in a shared house with three other full-time students. Do we have to pay council tax?",
+    "recommendation": "No. A house where everyone is a full-time student doesn't pay council tax, but you'll need to apply for the exemption.",
+    "aiCorrect": true,
+    "errorNote": "The advice is sound and every claim matches its source.",
+    "parts": [
+      "You're probably exempt. ",
+      {
+        "c": 1
+      },
+      " ",
+      {
+        "c": 2
+      }
+    ],
+    "claims": [
+      {
+        "id": 1,
+        "text": "If everyone living in a property is a full-time student, the home is exempt from council tax.",
+        "source": "gov-ct-ex",
+        "key": true,
+        "matches": true
+      },
+      {
+        "id": 2,
+        "text": "You usually need to apply to your local council, often with a certificate from your university.",
+        "source": "gov-ct-apply",
+        "key": false,
+        "matches": true
+      }
+    ],
+    "sources": {
+      "gov-ct-ex": {
+        "name": "GOV.UK: Council Tax discounts for students",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/council-tax/discounts-for-full-time-students",
+        "excerpt": "Households where <mark>everyone is a full-time student</mark> do <mark>not have to pay Council Tax</mark>."
+      },
+      "gov-ct-apply": {
+        "name": "GOV.UK: Council Tax discounts for students",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.gov.uk/council-tax/discounts-for-full-time-students",
+        "excerpt": "<mark>Apply to your council</mark> for the exemption. Your university can give you a <mark>certificate to prove you're a student</mark>."
+      }
+    }
+  },
+  {
+    "id": "crypto-app",
+    "title": "Unknown investment app (AI declines)",
+    "question": "My friend recommended a crypto app that promises 20% returns a month. Is it legit?",
+    "recommendation": "I can't confirm this app is safe. Check the FCA Register before you put any money in.",
+    "aiCorrect": true,
+    "declined": true,
+    "declineNote": "None of my sources mention this app, so I can't tell you whether it's legitimate.",
+    "closestMatch": "The closest sources found are general guidance on checking firms and spotting scams. They don't mention this app.",
+    "errorNote": "The AI correctly declines to judge an app its sources don't cover, then gives only advice it can support.",
+    "parts": [
+      "I couldn't find this app in any of my sources, so I won't guess. What I can tell you: ",
+      {
+        "c": 1
+      },
+      " ",
+      {
+        "c": 2
+      }
+    ],
+    "claims": [
+      {
+        "id": 1,
+        "text": "Firms offering investments in the UK should be authorised by the FCA, and you can check this on the FCA Register.",
+        "source": "fca-register",
+        "key": true,
+        "matches": true
+      },
+      {
+        "id": 2,
+        "text": "Promises of high or guaranteed returns are a common warning sign of an investment scam.",
+        "source": "fca-scamsmart",
+        "key": false,
+        "matches": true
+      }
+    ],
+    "sources": {
+      "fca-register": {
+        "name": "FCA: Financial Services Register",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://register.fca.org.uk",
+        "excerpt": "Use the Register to <mark>check a firm is authorised</mark> before you deal with it."
+      },
+      "fca-scamsmart": {
+        "name": "FCA ScamSmart: How to avoid investment scams",
+        "type": "Official",
+        "reliability": "official",
+        "checked": "Nov 2026",
+        "url": "https://www.fca.org.uk/scamsmart",
+        "excerpt": "Scammers often promise <mark>high returns</mark> with <mark>little or no risk</mark>."
+      }
+    }
+  }
+]

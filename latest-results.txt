@@ -1,0 +1,25 @@
+test_help_lists_commands (test_moneycheck.Conversation.test_help_lists_commands) ... ok
+test_plain_text_mode_has_no_colour_codes (test_moneycheck.Conversation.test_plain_text_mode_has_no_colour_codes) ... ok
+test_quitting_early_keeps_what_was_answered (test_moneycheck.Conversation.test_quitting_early_keeps_what_was_answered) ... ok
+test_repair_on_unrecognised_input (test_moneycheck.Conversation.test_repair_on_unrecognised_input) ... ok
+test_typing_indicator_before_answer (test_moneycheck.Conversation.test_typing_indicator_before_answer) ... ok
+test_counts (test_moneycheck.DataChecks.test_counts) ... ok
+test_every_scenario_is_consistent (test_moneycheck.DataChecks.test_every_scenario_is_consistent) ... ok
+test_wrong_answers_are_catchable_from_what_is_shown (test_moneycheck.DataChecks.test_wrong_answers_are_catchable_from_what_is_shown) ... ok
+test_checking_is_refused_outside_source_linked_mode (test_moneycheck.Modes.test_checking_is_refused_outside_source_linked_mode) ... ok
+test_each_mode_renders_and_logs (test_moneycheck.Modes.test_each_mode_renders_and_logs) ... ok
+test_no_nudge_in_other_modes (test_moneycheck.Nudge.test_no_nudge_in_other_modes) ... ok
+test_no_nudge_once_key_claim_checked (test_moneycheck.Nudge.test_no_nudge_once_key_claim_checked) ... ok
+test_nudge_can_be_turned_off (test_moneycheck.Nudge.test_nudge_can_be_turned_off) ... ok
+test_nudge_skip_counts_as_following (test_moneycheck.Nudge.test_nudge_skip_counts_as_following) ... ok
+test_nudge_when_key_claim_unchecked_then_check (test_moneycheck.Nudge.test_nudge_when_key_claim_unchecked_then_check) ... ok
+test_full_scripted_run (test_moneycheck.Scoring.test_full_scripted_run) ... ok
+test_checking_lisa_claim_shows_the_contradiction (test_moneycheck.SourceLinking.test_checking_lisa_claim_shows_the_contradiction) ... ok
+test_decline_case (test_moneycheck.SourceLinking.test_decline_case) ... ok
+test_forum_source_is_labelled (test_moneycheck.SourceLinking.test_forum_source_is_labelled) ... ok
+test_report (test_moneycheck.SourceLinking.test_report) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.034s
+
+OK
