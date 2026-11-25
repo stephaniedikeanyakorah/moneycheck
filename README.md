@@ -107,7 +107,7 @@ The 20 tests (with sub-tests over all 9 scenarios and all 3 modes) drive real se
 
 ## Development record
 
-[Link each stage to its commit.]
+All files were uploaded in one commit: [d74fdf2](https://github.com/stephaniedikeanyakorah/moneycheck/commit/d74fdf2e04c7f121c7bf8896aba7061736183c37).
 
 - **Stage 1: web prototype.** First built as a web page: three modes, claim-to-source panel, key-claim marker, nudge, logging, then reliability labels, dates, reporting and a decline case. *Checked:* browser tests.
 - **Stage 2: moved to a text-based version.** I rebuilt it as a terminal app so the interaction, not the visuals, carries the design. In a text interface every cue has to be in the words (command hints, labels, repair messages), which matches the module's focus on conversational interfaces. Same scenarios and logic, reused from the web version.
@@ -115,9 +115,9 @@ The 20 tests (with sub-tests over all 9 scenarios and all 3 modes) drive real se
 
 ## AI assistance
 
-- **Tool:** Claude (Anthropic).
-- **What I asked for:** turning my design (from A1 and the lectures) into a working prototype, first as a web page and then as a text-based version; writing the tests; drafting the report from my outline.
-- **What I changed:** [your edits, e.g. scenario wording, design decisions you overruled, report rewrites].
+- **Tool:** Claude.
+- **What I asked for:** A working prototype, first as a web page and then as a text-based version; writing the tests.
+- **What I changed:** I chose the topic, scenarios and design direction from my A1 and the lectures. I had the first web version restyled, then replaced it with a text-based version because the web one felt unrealistic. When reviewing the report, I pushed back on claims that overgeneralised the research and asked for more technical detail and evidence that the system works.
 - **How I checked:** ran the tests; played through every scenario in every mode; checked each source figure against the live GOV.UK, FCA, MoneyHelper and Experian pages; read the code for the nudge rule and scoring.
 
 ## Additional files
