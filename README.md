@@ -4,7 +4,7 @@
 
 IIS Assignment 2 prototype. A text-based, interactive system that tests whether AI explanations linking each claim to its source help people tell good advice from bad, without the extra effort of cognitive forcing. It builds on my A1 literature review, *Explaining Is Not Calibrating*.
 
-- **Submitted commit/release:** [tag, e.g. `v1.0-submission`]
+-- **Submitted commit/release:** [v1.0-submission](https://github.com/stephaniedikeanyakorah/moneycheck/releases/tag/v1.0-submission)
 
 ## Project status
 
